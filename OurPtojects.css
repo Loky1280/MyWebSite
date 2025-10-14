@@ -1,0 +1,142 @@
+.CurrentPageStyle{
+    display: inline-block;
+    font-weight: 900;
+    border-bottom: 4px solid rgb(190, 190, 190);
+    border-radius: 3px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: inherit;
+    color: rgba(32, 32, 32, 0.8);                  
+}
+a{
+    text-decoration: none;
+}
+.LogoStyle{
+    height: 120px;
+    width: 150px;
+    margin: 0 40px;
+    padding: 30px;
+}
+.MenuContainer {
+    display: flex;
+    align-items:center; 
+}
+.NavigationElement{
+    margin: 30px 40px;
+    text-decoration: none;
+    color: inherit;
+    color: rgba(14, 14, 14, 0.8);
+}
+.MainTitleProhectText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.HeadTetx{
+    font-weight: 1000;
+    font-size: 40px;
+}
+.TextConteiner{
+    line-height: 2.5;
+    max-width: 60%;
+}
+.IMGConteiner{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+.LeftColoun, .RightColoun{
+    flex: 1;
+    margin-top: 30px;
+    max-width: 40%;
+}
+.LeftColoun {
+    margin-left: 100px;
+}
+.RightColoun {
+    margin-right: 100px;
+}
+.ImageContainer, .HeigthImageComtainer, .ImageContainer3, .ImageContainer6 {
+    background-image: url("Resurs/Index/IndexGroup/GroupPic1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 320px;             
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+}
+.ImageContainer3{
+     background-image: url("Resurs/Index/IndexGroup/GroupPic3.jpg");
+}
+.ImageContainer6{
+    background-image: url("Resurs/Index/IndexGroup/GroupPic6.jpg");
+}
+.HeigthImageComtainer{
+    background-image: url("Resurs/Index/IndexGroup/GroupPic2.jpg");
+    height: 682px;
+    max-height: 960px;
+}
+.ImageProp {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.TextOnImageContainer{
+    padding: 30px 40px;
+}
+.BaseTextOnImage{
+    color: white;
+}
+
+
+
+@media (max-width: 1024px) {
+
+  .MainTitleProhectText {
+    text-align: center;
+  }
+  .HeadTetx {
+    font-size: 28px;
+  }
+  .TextConteiner {
+    max-width: 80%;
+    line-height: 2;
+    padding: 0 20px;
+  }
+  .IMGConteiner {
+    flex-direction: row; 
+    flex-wrap: wrap;  
+    justify-content: center;
+    gap: 20px;      
+  }
+  .LeftColoun, .RightColoun {
+    flex: 0 0 48%;      
+    margin: 0;
+    max-width: 48%;
+  }
+  .LeftColoun {
+    margin-left: 0;
+  }
+  .RightColoun {
+    margin-right: 0;
+  }
+  .ImageContainer, .HeigthImageComtainer, .ImageContainer3, .ImageContainer6 {
+    height: 200px;      
+    margin-bottom: 20px;
+  }
+  .HeigthImageComtainer {
+    height: 300px;
+    max-height: 400px;
+  }
+  .TextOnImageContainer {
+    padding: 15px 20px;
+  }
+  .BaseTextOnImage {
+    font-size: 16px;
+  }
+}

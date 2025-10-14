@@ -1,0 +1,430 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.FloatingIcon {
+    position: fixed;      
+    bottom: 20px;             
+    right: 20px;              
+    width: 60px;             
+    height: 60px;
+    cursor: pointer;         
+    z-index: 1000;           
+}
+.FloatingIcon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.FloatingIcon:hover {
+    transform: scale(1.1); 
+}
+.HeaderClass{
+    background-image: url("Resurs/Index/IndexTop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    width:auto;
+    min-height: 630px;
+    height: auto;
+    flex-direction: column;
+}
+.LogoStyle{
+    height: 120px;
+    width: 150px;
+    margin: 0 40px;
+    padding: 30px;
+}
+.MenuContainer {
+    display: flex;
+    align-items:center; 
+}
+.NavigationElement{
+    margin: 30px 40px;
+    text-decoration: none;
+    color: inherit;
+    color: rgba(255, 255, 255, 0.8);
+}
+.ButtonStyle{
+    font-size: 105%;
+    min-height: 30px;
+    min-width: 50px;
+    background-color:transparent;
+    border: none;
+    color: rgba(rgb(32, 32, 32), green, blue, alpha)
+}
+.BurgerMenuStyle{
+    max-width: 30px;
+    max-height: 30px;
+}
+#BurgerMenu{
+    display: none;
+}
+#BurgerMenu:checked ~ .MenuContainer .BurgerMenuElement {
+    display:none;
+}
+.NavigationElement:hover{
+    color:rgba(208, 208, 208, 0.804);
+}
+.NavigationPosition{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.Shadow{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.TextProps{
+    font-size: 150%;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.TextBox{
+    max-width: 100%;
+}
+.AnArrow{
+    max-width: 144px;
+    max-height: 144px;
+}
+.AnArrow:hover{
+    transform:scale(112%);
+}
+.MainBox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.MainText{
+    max-width: 50%;
+    font-size: 24px;
+    padding-left: 40px;
+    margin: 0 40px;
+}
+.MainTitleText{
+    font-size:34px;
+    font-weight: 900;
+    flex-wrap: wrap;
+}
+.StatBlock{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    gap: 80px;
+}
+.StatBox{
+    padding-left: 40px;
+}
+.StatsTitle{
+    color:orange;
+    font-size: 48px;
+}
+.StatsText{
+    font-size:20px;
+    color:orange;
+    margin: 20px;
+}
+.StatsDescription{
+    font-size: 24px;
+}
+.IMGContainer{
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+.IMGProp{
+    margin-top: -420px;
+    max-width: 574px;
+    max-height: 521px;
+}
+.MapContainer{
+    margin-top: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 780px;
+    min-width: 890px;
+    position: relative;
+}
+.MapProp{
+    width: 100%;
+    height: 100%;
+}
+.ButtonMapContainer{
+    display: flex;
+    flex-direction: column;
+}
+.EarthButton, .SearchButton{
+    position: absolute;
+    min-height: 40px;
+    min-width: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 8px;
+}
+.EarthButton{
+    left: 95%;
+    top: 3%;
+    background-image: url(Resurs/Index/MapEarthButton.png);
+}
+.SearchButton{
+    left: 95%;
+    top: 9%;
+    background-image: url(Resurs/Index/MapSearchButton.png);
+    background-size: 20px;
+}
+.MapButtonStyles{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Norht, .Central, .South{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    height: 40px;
+    width: 245px;
+    padding: 8px 12px;
+    background-color: rgba(109, 108, 108, 0.526);
+    color: white;
+    border-radius: 8px;
+}
+.Norht{
+    top: 17%;
+    left: 26%;
+}
+.Central{
+    top: 31%;
+    left: 36%
+}
+.South{
+    top: 51%;
+    left: 32%;
+}
+.Circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    min-height: 24px;
+    max-width: 24px;
+    max-height: 24px;
+    background-color: white;
+    border-radius: 50%;
+}
+.CircleTextProp{
+    position: absolute;
+    color: black;
+    align-items: center;
+}
+.ZoomButtonStyle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    top: 84.3%;
+    left: 43%;
+    min-height: 48px;
+    min-width: 180px;
+    border: none;
+    background-color: rgba(251, 251, 251, 0.9);
+}
+.AllProjectsButton{
+    font-size: large;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    min-height: 60px;
+    min-width: 180px;
+    border-radius: 8px;
+    left: 0%;
+    top: 44%;
+    padding: 20px;
+}
+.VectorButton{
+    max-width: 28px;
+    max-height: 28px;
+}
+.ProjectsTitleStyle{
+    padding: 52px 0;
+    margin-left: 40px;
+    font-size: 36px;
+}
+.TableContainerProp{
+    margin: 0px;
+    padding: 0px;
+}
+.TableContainerProp img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    object-position: center;
+}
+.TableStyle{
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+.TableTextTitle, .TableText{
+    margin: 20px;
+    position: absolute;
+    left: 1%;
+    color: white;
+}
+.TableTextTitle{
+    font-size: 28px;
+    top: 2%;
+    font-weight: 700;
+}
+.TableText{
+    font-size: 20px;
+    top:12%;
+}
+.ImageWrapper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 30px;
+    background-color: black;
+    padding: 20px 40px;
+}
+.FooterLeftColoumn, .FooterRightColoumn{
+    display: flex;
+    width: 25%;
+}
+.FooterRightColoumn{
+    display: flex;
+    align-items: center;
+}
+.FooterMidleColoumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.SocialContainer{
+    display: flex;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+}
+.SocialIconProp{
+    max-width: 40px;
+    max-height: 40px;
+    padding: 12px;
+}
+.LargeSocialIcon{
+    max-width: 32px;
+    max-height: 32px;
+    padding: 12px;
+}
+.FooterText, .StartFooterText{
+    color: white;
+    padding: 8px;
+    margin-left: 18px;
+}
+.FooterTextContainer{
+    display: flex;
+    flex-direction: column;
+}
+.StartFooterText{
+    padding-top: 60px;
+}
+.FooterAutorInformation{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.FooterLogoStyle{
+    min-height: 120px;
+    min-width: 120px;
+    max-height: 220px;
+    max-width: 220px;
+}
+
+
+
+@media (max-width: 1024px) {
+  .NavigationPosition {
+    flex-direction: row;
+    align-items: center;
+  }
+  .MenuContainer {
+    flex-direction: row;
+  }
+  .LogoStyle {
+    width: 120px;
+    height: auto;
+    padding: 10px;
+  }
+  .TextProps h1 {
+    font-size: 24px;
+  }
+  .MainText {
+    max-width: 95%;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .MainContainer{
+    display: flex;
+    justify-content: space-between;
+  }
+  .StatBlock {
+    flex-direction: column;
+    align-items: center;
+  }
+  .IMGProp {
+    margin-top: 0;
+    width: 274px;
+    height: 321px;
+  }
+  .TableStyle {
+    display: flex;
+    flex-direction: column;
+  }
+  .TableContainerProp {
+    width: 100%;
+    display: block;
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .FooterLeftColoumn, .FooterMidleColoumn, .FooterRightColoumn {
+    width: 100%;
+    justify-content: center;
+  }
+  .FooterMidleColoumn {
+    order: 1; 
+  }
+  .FooterLeftColoumn {
+    order: 2; 
+  }
+  .FooterRightColoumn {
+    order: 3; 
+  }
+  .FooterLogoStyle {
+    margin: 20px auto;
+  }
+}

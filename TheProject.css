@@ -1,0 +1,204 @@
+.CurrentPageStyle{
+    display: inline-block;
+    font-weight: 900;
+    border-bottom: 4px solid rgb(190, 190, 190);
+    border-radius: 3px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: inherit;
+    color: rgba(255, 255, 255, 0.8);                
+}
+.TitleText{
+    font-size: 36px;
+    color: white;
+}
+.TitleClassComtainer{
+    padding: 60px;
+}
+.HeaderClass{
+    justify-content: space-between;
+}
+.LeftColoun{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 60px 60px 120px;
+    max-width: 8%;
+}
+.LineStyle{
+    width: 100%;
+}
+.RightColoun{
+    letter-spacing: 2px;
+    line-height: 2.5;
+    margin: 80px;
+    padding: 0px 0px 0px 60px;
+    width: 50%;
+}
+main{
+    display: flex;
+}
+.RoundaboutContainer {
+    display: flex;          
+    padding: 60px;
+    background-color: rgb(235, 235, 235);
+    overflow-x: hidden;      
+    justify-content: flex-start;
+}
+.RoundaboutContainer img {
+    height: 380px;
+    margin-right: 30px;        
+    flex-shrink: 0;            
+}
+.ContactFormSpace{
+   background-image: url("Resurs/TheProject/ContactBackGround.png");
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 900px;
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+    align-items: center;
+}
+.ContactFormContainer{
+    background-color: white;
+    height: 600px;
+    width: 520px;
+    border-radius: 8px;
+}
+.ContactFormContent{
+    letter-spacing: 2px;
+    line-height: 2.5;
+    padding: 30px 50px 0px 50px;
+}
+.RowsPosition{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.InputRow{
+     width: 100%;
+    padding: 20px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.PhoneRow {
+  display: flex;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.SelectorStyle {
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  background: transparent;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: none;
+  background-color: transparent;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.InputPhone {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 20px 15px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.FormButton{
+    margin-top:  28px;
+    padding: 22px;
+    border: 1px solid #b87a48;
+    border-radius: 6px;
+    background-color: white;
+    color: #b87a48;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.FormButton:hover {
+  background-color: #b87a48;
+  color: white;
+}
+footer{
+    margin-top: 0px;
+}
+
+@media (max-width: 1024px) {
+
+  .TitleText {
+    font-size: 28px;
+    text-align: center;
+  }
+  .TitleClassComtainer {
+    padding: 30px 20px;
+  }
+  .HeaderClass {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .LeftColoun, .RightColoun {
+    max-width: 90%;
+    margin: 20px 0;
+    padding: 0 20px;
+  }
+  .LeftColoun {
+    margin-left: 0;
+  }
+  .RightColoun {
+    padding-left: 0;
+    letter-spacing: 1.5px;
+    line-height: 2;
+  }
+
+  .RoundaboutContainer {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 30px 10px;
+    justify-content: flex-start;
+  }
+  .RoundaboutContainer img {
+    height: 250px;
+    margin-right: 20px;
+  }
+
+  .ContactFormSpace {
+    padding: 40px 10px;
+    min-height: auto;
+  }
+  .ContactFormContainer {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+  .ContactFormContent {
+    padding: 20px 30px;
+  }
+  .RowsPosition {
+    align-items: stretch;
+  }
+  .InputRow, .InputPhone, .SelectorStyle {
+    font-size: 14px;
+    padding: 15px;
+  }
+  .FormButton {
+    width: 100%;
+    padding: 18px;
+    font-size: 14px;
+  }
+}

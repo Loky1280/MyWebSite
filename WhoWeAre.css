@@ -1,0 +1,225 @@
+.CurrentPageStyle{
+    display: inline-block;
+    font-weight: 900;
+    border-bottom: 4px solid rgba(255, 250, 242, 0.8);
+    border-radius: 3px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: rgba(255, 250, 242, 0.8);                    
+}
+main{
+    background-color: rgb(238, 237, 237);
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 30px;
+    line-height: 2.5;
+}
+.LeftColoun{
+    flex: 1 1 300px;
+    font-weight: 900;
+}
+.RightColoun{
+    flex: 2 1 500px; 
+}
+.VideoContainer{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.VideoContainer iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.TitleTextRightColoun{
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+.StatBlok{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.StatsTitle{
+    font-size: 32px;
+}
+.StatsText{
+    font-size: 16px;
+}
+.StatsDescription{
+    font-size: 20px;
+}
+.DirectorContainer{
+    margin: 60px;
+}
+.DirectorSubContainer{
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+.DirectorTextContainer{
+    flex: 1 1 300px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+}
+.DirectorImageContainer{
+    flex: 1 1 300px;
+    max-width: 587px;
+    height: auto;
+}
+.DirectorSubTextContainer{
+    letter-spacing: 2px;
+    line-height: 2.5;
+}
+.DirectorFooterContainer{
+    line-height: 1.8;
+    text-align: center;
+    flex-direction: column;
+}
+.DirectorTitle{
+    margin: 40px 0px 40px 0px;
+}
+.PortalMember{
+    padding: 60px;
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+.PortalMemberTegContainer{
+    max-width: 24%;
+    display: flex;
+    justify-content: space-between;
+}
+.PortalMemberTextPropertis, .CurrentPortalMemberPropertis{
+    color: rgba(77, 77, 77, 0.8);
+}
+.CurrentPortalMemberPropertis{
+    color: rgba(227, 168, 30, 0.8);
+    border-bottom: 2px solid rgba(227, 168, 30, 1);
+}
+.PortalMemberTextPropertis:hover{
+    color: rgba(93, 93, 93, 0.7);
+}
+.LeadesshipContainer{
+    padding: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.LeadesshipImageContainer{
+    justify-content: center;
+    display: flex;
+    width: 360px;
+    height: 360px;
+    background-color: rgb(39, 39, 39);
+}
+.LeadshipImageProp{
+    max-width: 360px;
+    max-height: 360px;
+}
+.OurHistoryContainer{
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+}
+.OurHistoryText, .OurHistoryContentContainer{
+    font-size: 32px;
+    padding: 60px;
+}
+.OurHistoryContentContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.OurHistoryImageContainer{
+    height: 420px;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.OurHistoryImageDescription {
+    font-weight: 800;
+    font-size: 50px;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+@media (max-width: 1024px) {
+
+    main {
+        flex-direction: column;
+        padding: 30px;
+    }
+    .LeftColoun, .RightColoun {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+    .VideoContainer {
+        height: auto;
+    }
+    .VideoContainer iframe {
+        height: 315px; 
+    }
+    .DirectorSubContainer {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .DirectorTextContainer {
+        padding-left: 0;
+        text-align: center;
+    }
+    .DirectorImageContainer {
+        max-width: 100%;
+        height: auto;
+    }
+    .PortalMemberTegContainer {
+        max-width: 100%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .LeadesshipContainer {
+        flex-direction: column;
+        padding: 30px 0;
+        gap: 20px;
+    }
+    .LeadesshipImageContainer {
+        width: 100%;
+        max-width: 360px;
+        height: auto;
+    }
+        .OurHistoryContentContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .OurHistoryImageContainer {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .OurHistoryImageContainer img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+    }
+    .OurHistoryImageDescription {
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        font-size: 6vw; 
+        text-align: center;
+        white-space: nowrap; 
+        max-width: 90%;
+    }
+}
