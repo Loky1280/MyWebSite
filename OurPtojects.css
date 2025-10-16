@@ -11,6 +11,12 @@
 a{
     text-decoration: none;
 }
+.LeteralBurgerElements{
+    background-color: black;
+}
+.CentralBurgerElement{
+    background-color: black;
+}
 .LogoStyle{
     height: 120px;
     width: 150px;
