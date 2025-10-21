@@ -8,6 +8,9 @@
     color: inherit;
     color: rgba(32, 32, 32, 0.8);                  
 }
+.LanguageOptions{
+  color: black;
+}
 a{
     text-decoration: none;
 }
@@ -34,25 +37,30 @@ a{
     color: rgba(14, 14, 14, 0.8);
 }
 .MainTitleProhectText{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 .HeadTetx{
     font-weight: 1000;
-    font-size: 40px;
+    font-size: 60px;
+}
+.SubHeadText{
+  font-size: 50px;
 }
 .TextConteiner{
-    line-height: 2.5;
-    max-width: 60%;
+  font-size: 30px;
+  line-height: 2.5;
+  max-width: 76%;
 }
 .IMGConteiner{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    width: 100%;
+   display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
 }
 .LeftColoun, .RightColoun{
     flex: 1;
@@ -70,7 +78,8 @@ a{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 320px;             
+    height: 653px;  
+    width: 843px;          
     width: 100%;
     margin-bottom: 40px;
     position: relative;
@@ -83,8 +92,8 @@ a{
 }
 .HeigthImageComtainer{
     background-image: url("Resurs/Index/IndexGroup/GroupPic2.jpg");
-    height: 682px;
-    max-height: 960px;
+    height: 653px; 
+    height: 1342px;
 }
 .ImageProp {
     width: 100%;
@@ -95,8 +104,13 @@ a{
 .TextOnImageContainer{
     padding: 30px 40px;
 }
-.BaseTextOnImage{
+.TitleTextOnImage{
     color: white;
+    font-size: 40px;
+}
+.BaseTextOnImage{
+  color: white;
+  font-size: 30px;
 }
 
 
