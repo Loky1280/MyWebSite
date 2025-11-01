@@ -1,0 +1,30 @@
+{
+    "nav":{
+        "WhoWeAre":"WER WIR SIND",
+        "WhatWeDo":"WAS WIR TUN",
+        "OurProjects":"UNSERE PROJEKTE"
+    },
+    "header":{
+        "Title":"Wen wir machen",
+        "Text":"Wir bieten Ihnen wertvolle Möglichkeiten durch unsere vielfältige Projektpalette in verschiedenen Sektoren und an unterschiedlichen Standorten."
+    },
+    "leftColoumn":{
+        "Title":"Wir entwickeln",
+        "Text":"Ein inspirierendes Umfeld für alle Genies, ausdauernden Persönlichkeiten und inspirierten Köpfe, die lernen, sich weiterentwickeln und erfolgreich sein wollen – durch außergewöhnliche Architektur, die luxuriöses Wohnen ermöglicht."
+    },
+    "rightColoumn":{
+        "Title":"Wir glauben",
+        "Text":"Wir glauben an die Entwicklung einer nachhaltigen Umwelt und an die Bereitstellung architektonischer Entwürfe, die die Lebensqualität verbessern und die besten Chancen in Gegenwart und Zukunft bieten."
+    },
+    "aboutCompany":{
+        "Title":"Eine Kultur der Serviceexzellenz und ein gemeinsames Verantwortungsbewusstsein",
+        "Text":"Wenn Sie sich für Motoon entscheiden, wählen Sie die Besten. Unsere Mitarbeiter sind nicht nur hochqualifizierte Experten auf ihrem Gebiet, sondern auch mit Leidenschaft bei der Sache. Wir denken einfach anders – und das führt zu innovativen Ergebnissen. Ob Sie Bauträger, Investor, Vermieter oder Mieter sind: Wir sind ein Partner, dem Ihr Erfolg am Herzen liegt."
+    },
+    "footer":{
+        "MotoonPlace":"Riad, Saudi-Arabien",
+        "GeneralPercon":"3113 Mohammed Ibn Abdulaziz Rd.",
+        "MotoonTawers":"Gewerbetürme, Nordturm",
+        "Location":"Etage, Riad 12212, Saudi-Arabien",
+        "AutorText":"© 2024 Motoon Entwicklung. Alle Rechte vorbehalten."
+    }
+}

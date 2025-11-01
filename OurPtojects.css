@@ -45,7 +45,7 @@ a{
   align-items: center;
 }
 .HeadTetx{
-    font-weight: 1000;
+    font-weight: 750;
     font-size: 60px;
 }
 .SubHeadText{
@@ -53,7 +53,7 @@ a{
 }
 .TextConteiner{
   font-size: 30px;
-  line-height: 2.5;
+  line-height: 118%;
   max-width: 76%;
 }
 .IMGConteiner{

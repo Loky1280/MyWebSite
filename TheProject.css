@@ -9,7 +9,8 @@
     color: rgba(255, 255, 255, 0.8);                
 }
 .TitleText{
-    font-size: 36px;
+    font-size: 65px;
+    font-weight: 750;
     color: white;
 }
 .TitleClassComtainer{
@@ -22,17 +23,33 @@
     display: flex;
     flex-direction: column;
     margin: 60px 60px 60px 120px;
-    max-width: 8%;
+    max-width: 16%;
+}
+.LeftColoumnTitleText{
+  font-weight: 750;
+  font-size: 30px;
+}
+.LeftColoumnText{
+  font-weight: 400;
+  font-size: 26px;
 }
 .LineStyle{
     width: 100%;
 }
 .RightColoun{
     letter-spacing: 2px;
-    line-height: 2.5;
-    margin: 80px;
-    padding: 0px 0px 0px 60px;
+    margin: 60px 60px 60px 60px;
+    padding-left: 60px;
     width: 50%;
+}
+.RightColoumnTitleText{
+  font-size: 40px;
+  font-weight: 750;
+}
+.RightColoumnText{
+  line-height: 182%;
+  font-size: 30px;
+  font-weight: 400;
 }
 main{
     display: flex;
@@ -54,7 +71,7 @@ main{
    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 900px;
+    min-height: 1136px;
     display: flex;
     justify-content: center;
     padding-left: 60px;
@@ -62,14 +79,29 @@ main{
 }
 .ContactFormContainer{
     background-color: white;
-    height: 600px;
-    width: 520px;
+    height: 884px;
+    width: 782px;
     border-radius: 8px;
+}
+.ContactFormTitleText{
+  font-size: 40px;
+  font-weight: 400;
+}
+.ContactFormText{
+  font-size: 30px;
+  line-height: 118%;
+  font-weight: 400;
 }
 .ContactFormContent{
     letter-spacing: 2px;
     line-height: 2.5;
     padding: 30px 50px 0px 50px;
+}
+.ContactFormContent input{
+  padding-left: 40px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
 }
 .RowsPosition{
     display: flex;
@@ -77,7 +109,8 @@ main{
     align-items: end;
 }
 .InputRow{
-     width: 100%;
+    width: 100%;
+    height: 104px;
     padding: 20px 15px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -88,6 +121,7 @@ main{
 .PhoneRow {
   display: flex;
   width: 100%;
+  height: 104px;
   border: 1px solid #ccc;
   border-radius: 6px;
   margin-bottom: 15px;
@@ -116,15 +150,19 @@ main{
   box-sizing: border-box;
 }
 .FormButton{
-    margin-top:  28px;
-    padding: 22px;
-    border: 1px solid #b87a48;
-    border-radius: 6px;
-    background-color: white;
-    color: #b87a48;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s;
+  min-width: 242px;
+  min-height: 104px;
+  height: 100%;
+  margin-top:  28px;
+  padding: 22px;
+  border: 1px solid #b87a48;
+  border-radius: 6px;
+  background-color: white;
+  color: #b87a48;
+  font-size: 36px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 .FormButton:hover {
   background-color: #b87a48;

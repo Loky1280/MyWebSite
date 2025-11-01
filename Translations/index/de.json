@@ -1,0 +1,36 @@
+{
+    "nav":{
+        "WhoWeAre":"WER WIR SIND",
+        "WhatWeDo":"WAS WIR TUN",
+        "OurProjects":"UNSERE PROJEKTE"
+    },
+    "header":{
+        "Title":"Element",
+        "SubTitle":"<b>Ein Projekt, das darüber hinausgeht<br>das Gewöhnliche</b>"
+    },
+    "AboutTitle":"Um Mooton",
+    "AboutText":"Motoon hat sich als führendes und traditionsreichstes Immobilieninstitut der Region etabliert. Mit einem Team aus erfahrenen Fachleuten und Pionieren in Design und Technik sind wir auf die Schaffung einzigartiger, anspruchsvoller Wohnräume spezialisiert, die der Vision 2030 entsprechen und eine zukunftsorientierte Zukunft gestalten.",
+    "statblock":{
+        "StatsText1":"Einheit",
+        "StatsDescription1":"Erfolgreich gemanagt",
+        "StatsText2":"Kunde",
+        "StatsDescription2":"Erreichte die Zufriedenheit",
+        "StatsText3":"qm",
+        "StatsDescription3":"Ein weitläufiges Gebiet entwickelt"
+    },
+    "map":{
+        "North":"NÖRDLICHE REGION",
+        "Central":"ZENTRAL REGION",
+        "South":"SÜDEN REGION",
+        "ZoomButton":"Herauszoomen",
+        "ProjectsButton":"Alle Projekte"
+    },
+    "TableTitle":"Neueste Projekte",
+    "footer":{
+        "MotoonPlace":"Riad, Saudi-Arabien",
+        "GeneralPercon":"3113 Mohammed Ibn Abdulaziz Rd.",
+        "MotoonTawers":"Gewerbetürme, Nordturm",
+        "Location":"Etage, Riad 12212, Saudi-Arabien",
+        "AutorText":"© 2024 Motoon Entwicklung. Alle Rechte vorbehalten."
+    }
+}

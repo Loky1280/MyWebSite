@@ -6,7 +6,7 @@
     display: flex;
     width:auto;
     min-height: 630px;
-    height: auto;
+    height: 50vw;
     flex-direction: column;
 }
 .CurrentPageStyle{

@@ -7,6 +7,12 @@
     text-decoration: none;
     color: rgba(255, 250, 242, 0.8);                    
 }
+.HeaderTitle{
+    font-size: 75px;
+}
+.HeaderText{
+    font-size: 55px;
+}
 main{
     background-color: rgb(238, 237, 237);
     padding: 60px;
@@ -119,19 +125,19 @@ main{
     gap: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 .PersonalLeadssheapContainer{
     display: flex;
     flex-direction: column;
     flex: 0 0 24%;
+    align-items: center;
 }
 .LeadesshipImageContainer{
     justify-content: center;
     display: flex;
     aspect-ratio: 1/1;
     max-width: 360px;
-    width: 100%;
     background-color: rgb(39, 39, 39);
 }
 .LeadshipImageProp{

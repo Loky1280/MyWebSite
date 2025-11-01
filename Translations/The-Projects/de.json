@@ -1,0 +1,34 @@
+{
+    "nav":{
+        "WhoWeAre":"WER WIR SIND",
+        "WhatWeDo":"WAS WIR TUN",
+        "OurProjects":"UNSERE PROJEKTE"
+    },
+    "Title":"Tahli-Spaziergang",
+    "leftColoumn":{
+        "Title1":"Standort",
+        "Text1":"Qurtobah, Riad",
+        "Title2":"Typ",
+        "Text2":"Villen",
+        "Title3":"Anzahl der Typen",
+        "Text3":"10"
+    },
+    "rightColoumn":{
+        "Title":"Spiegelt die Qualität Ihres Unternehmens wider.",
+        "Text":"Als eines unserer laufenden Projekte bietet Tahlia Walk alle Dienstleistungen, die Ihren Geschäftsanforderungen und den Bedürfnissen Ihrer Mitarbeiter gerecht werden, um den Produktionsprozess zu beschleunigen. In Tahlia Walk finden Sie eine Vielzahl von Immobilienflächen, die speziell für Ihr Projekt in einem der renommiertesten Viertel von Jeddah konzipiert wurden und Eleganz, Komfort und herausragenden Service vereinen."
+    },
+    "form":{
+        "Title":"Titel",
+        "Text":"Für alle Anfragen zu Motoon-Projekten rufen Sie uns bitte unter +966 53 291 7222 an.",
+        "Name":"Vollständiger Name",
+        "Email":"E-Mail",
+        "Phone":"Handynummer"
+    },
+    "footer":{
+        "MotoonPlace":"Riad, Saudi-Arabien",
+        "GeneralPercon":"3113 Mohammed Ibn Abdulaziz Rd.",
+        "MotoonTawers":"Gewerbetürme, Nordturm",
+        "Location":"Etage, Riad 12212, Saudi-Arabien",
+        "AutorText":"© 2024 Motoon Entwicklung. Alle Rechte vorbehalten."
+    }
+}

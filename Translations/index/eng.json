@@ -1,0 +1,36 @@
+{
+    "nav":{
+        "WhoWeAre":"WHO WE ARE",
+        "WhatWeDo":"WHAT WE DO",
+        "OurProjects":"OUR PROJECTS"
+    },
+    "header":{
+        "Title":"Element",
+        "SubTitle":"<b>A project that goes beyond<br>the ordinary</b>"
+    },
+    "AboutTitle":"About Mooton",
+    "AboutText":"Motoon has distinguished itself as the foremost and longest-standing real estate institution in the region. With a team of skilled professionals and pioneers in design and engineering, We specialize in creating unique, sophisticated living spaces that align with Vision 2030, shaping a forward looking future.",
+    "statblock":{
+        "StatsText1":"unit",
+        "StatsDescription1":"Successfully managed",
+        "StatsText2":"customer",
+        "StatsDescription2":"Achieved the satisfaction",
+        "StatsText3":"sqm",
+        "StatsDescription3":"Developed an extensive area"
+    },
+    "map":{
+        "North":"NORHTEN REGION",
+        "Central":"CENTRAL REGION",
+        "South":"SOUTH REGION",
+        "ZoomButton":"Zoom Out",
+        "ProjectsButton":"All projects"
+    },
+    "TableTitle":"Newest Projects",
+    "footer":{
+        "MotoonPlace":"Riyadh, KSA",
+        "GeneralPercon":"3113 Mohammed Ibn Abdulaziz Rd.",
+        "MotoonTawers":"Commercial Towers, North Tower",
+        "Location":"Floor, Riyadh 12212, KSA",
+        "AutorText":"© 2024 Motoon Development. All rights reserved."
+    }
+}

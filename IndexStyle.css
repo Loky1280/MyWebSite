@@ -153,13 +153,11 @@ body {
 }
 .MainTitleText{
     font-size:40px;
-    font-weight: 900;
+    font-weight: 750;
     flex-wrap: wrap;
 }
 .AbountMootonText{
-    line-height: 1.8;
     font-size: 34px;
-    letter-spacing: 2px;
 }
 .ProductContainer{
     margin: 80px;
@@ -242,9 +240,9 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 20px;
-    height: 40px;
-    width: 245px;
+    font-size: 28px;
+    height: 60px;
+    width: 345px;
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.25);
     color: white;
@@ -266,10 +264,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 24px;
-    min-height: 24px;
-    max-width: 24px;
-    max-height: 24px;
+    width: 28px;
+    height: 28px;
     background-color: white;
     border-radius: 50%;
 }
@@ -280,9 +276,6 @@ body {
 }
 .ZoomButtonStyle{
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 8px;
     top: 84.3%;
     left: 43%;
@@ -314,9 +307,11 @@ body {
     max-height: 14px;
 }
 .ProjectsTitleStyle{
-    padding: 52px 0;
+    gap: 36px;
+    padding: 52px;
     margin-left: 40px;
-    font-size: 36px;
+    font-size: 40px;
+    font-weight: 750;
 }
 .TableContainerProp{
     margin: 0px;
@@ -424,7 +419,11 @@ footer{
     max-width: 220px;
 }
 
-
+@media (max-width: 1132px) {
+    .ZoomButtonStyle{
+        top: 78.3%;
+    }
+}
 
 @media (max-width: 1024px) {
   .NavigationPosition {
@@ -464,6 +463,9 @@ footer{
     display: flex;
     flex-direction: column;
   }
+  .ZoomButtonStyle{
+        top: 64.3%;
+    }
   .TableContainerProp {
     width: 100%;
     display: block;

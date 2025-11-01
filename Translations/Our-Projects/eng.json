@@ -1,0 +1,39 @@
+{
+    "nav":{
+        "WhoWeAre":"WHO WE ARE",
+        "WhatWeDo":"WHAT WE DO",
+        "OurProjects":"OUR PROJECTS"
+    },
+    "mainTitle":{
+        "TitleHead":"Our Projects",
+        "TitleSubText":"We are a team of EXPERTS and CHANGE-MAKERS",
+        "Text":"Who infuses all our spaces with creative values, believing in the transformative power of architectural design. We develop exceptional experiences of what architectural design can create."
+    },
+    "imageTable":{
+        "titleOnImage":{
+            "Title1":"Tharwa Town",
+            "Title2":"Motoon Towers",
+            "Title3":"Tharwa Town",
+            "Title4":"TAHLIA WALK",
+            "Title5":"Motoon Towers",
+            "Title6":"Motoon Towers",
+            "Title7":"Motoon Tower"
+        },
+        "textOnImage":{
+            "Text1":"Khobar, Eastern Province",
+            "Text2":"Olaya, Riyadh",
+            "Text3":"Khobar, Eastern Province",
+            "Text4":"Olaya, Riyadh",
+            "Text5":"Olaya, Riyadh",
+            "Text6":"Olaya, Riyadh",
+            "Text7":"Olaya, Riyadh"
+        }
+    },
+    "footer":{
+        "MotoonPlace":"Riyadh, KSA",
+        "GeneralPercon":"3113 Mohammed Ibn Abdulaziz Rd.",
+        "MotoonTawers":"Commercial Towers, North Tower",
+        "Location":"Floor, Riyadh 12212, KSA",
+        "AutorText":"© 2024 Motoon Development. All rights reserved."
+    }
+}

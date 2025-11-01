@@ -1,0 +1,39 @@
+{
+    "nav":{
+        "WhoWeAre":"WER WIR SIND",
+        "WhatWeDo":"WAS WIR TUN",
+        "OurProjects":"UNSERE PROJEKTE"
+    },
+    "mainTitle":{
+        "TitleHead":"Unsere Projekte",
+        "TitleSubText":"Wir sind ein Team aus EXPERTEN und CHANGE-MAKER",
+        "Text":"Wir verleihen all unseren Räumen kreative Werte und glauben an die transformative Kraft architektonischen Designs. Wir entwickeln außergewöhnliche Erlebnisse, die architektonisches Design schaffen kann."
+    },
+    "imageTable":{
+        "titleOnImage":{
+            "Title1":"Tharwa-Stadt",
+            "Title2":"Motoon-Türme",
+            "Title3":"Tharwa-Stadt",
+            "Title4":"TAHLIA-SPAZIERGANG",
+            "Title5":"Motoon-Türme",
+            "Title6":"Motoon-Türme",
+            "Title7":"Motoon-Türme"
+        },
+        "textOnImage":{
+            "Text1":"Khobar, Ostprovinz",
+            "Text2":"Olaya, Riad",
+            "Text3":"Khobar, Ostprovinz",
+            "Text4":"Olaya, Riad",
+            "Text5":"Olaya, Riad",
+            "Text6":"Olaya, Riad",
+            "Text7":"Olaya, Riad"
+        }
+    },
+    "footer":{
+        "MotoonPlace":"Riad, Saudi-Arabien",
+        "GeneralPercon":"3113 Mohammed Ibn Abdulaziz Rd.",
+        "MotoonTawers":"Gewerbetürme, Nordturm",
+        "Location":"Etage, Riad 12212, Saudi-Arabien",
+        "AutorText":"© 2024 Motoon Entwicklung. Alle Rechte vorbehalten."
+    }
+}
