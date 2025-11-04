@@ -67,7 +67,7 @@ main{
     flex-shrink: 0;            
 }
 .ContactFormSpace{
-   background-image: url("Resurs/TheProject/ContactBackGround.png");
+   background-image: url("Resurs/TheProject/ContactBackGround.jpg");
    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
