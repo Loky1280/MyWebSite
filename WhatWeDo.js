@@ -1,6 +1,6 @@
 async function loadLanguage(langCode) {
   try {
-    const response = await fetch(`Translations/index/${langCode}.json`);
+    const response = await fetch(`Translations/What-We-Do/${langCode}.json`);
     const translations = await response.json();
 
     document.querySelectorAll("[data-translate]").forEach((el) => {
