@@ -1,0 +1,59 @@
+{
+    "nav":{
+        "WhoWeAre":"WER WIR SIND",
+        "WhatWeDo":"WAS WIR TUN",
+        "OurProjects":"UNSERE PROJEKTE"
+    },
+    "header":{
+        "Title":"Wer wir sind",
+        "Text":"Der Immobilien-Zeitgeist."
+    },
+    "leftColoumn":{
+        "Text":"Wir haben uns der Gestaltung von Lebensräumen verschrieben, die nicht nur einzigartig und anspruchsvoll sind, sondern auch den Zeitgeist widerspiegeln und so dazu beitragen, die Zukunft im Einklang mit der Vision 2030 zu gestalten."
+    },
+    "rightColoumn":{
+        "VideoText":"Jede Designherausforderung, die wir in Angriff nehmen, gehen wir mit Neugier und Kreativität an, mit dem Ziel, verborgene Möglichkeiten aufzudecken.",
+        "Text":"Unsere Innovationsfreude treibt uns an, neue Maßstäbe in der Stadtentwicklung zu setzen, indem wir die Rahmenbedingungen nutzen, die Innovationen fördern. Unsere Vision ist eine positive Transformation in allen Bereichen, angetrieben von der Leidenschaft für die Zukunft."
+    },
+    "statblock":{
+        "StatsText1":"Einheit",
+        "StatsDescription1":"Erfolgreich gemanagt",
+        "StatsText2":"Kunde",
+        "StatsDescription2":"Erreichte die Zufriedenheit",
+        "StatsText3":"qm",
+        "StatsDescription3":"Ein weitläufiges Gebiet entwickelt"
+    },
+    "director":{
+        "DirectorsMessage":"Botschaft des Regisseurs",
+        "DirectorTitle1":"“ Motoon hat seit dem ersten Tag ein rasantes Wachstum erlebt",
+        "DirectorText1":"Als Reaktion auf die steigende Nachfrage nach unseren sorgfältig geplanten und entwickelten Projekten setzt sich jedes Mitglied unseres kompetenten Motoon-Teams für die Umsetzung unserer Strategie und Vision ein, denn Motoon wird einen Wendepunkt für die Immobilienentwicklung im Königreich Saudi-Arabien darstellen.“",
+        "DirectorDescription1":"Ing. Mahmoud bin Ibrahim bin Abdallah",
+        "DirectorDescription2":"Charmain Direktor OF Motoon",
+        "DirectorTitle2":"“ Sie gehören zu den weltweit angesehensten und ältesten Immobilieninstitutionen,",
+        "DirectorText2":"Motoon's Unsere einzigartige Vision und unsere Werte heben uns von anderen Immobilieninstitutionen ab. Dieses große Verdienst gebührt jedem Visionär und kreativen Kopf, der diese Vision umsetzt und mit den Entwicklungen im Immobilien- und Architekturbereich Schritt hält, sodass wir immer an der Spitze stehen.”",
+        "DirectorDescription3":"Ing. Mahmoud bin Ibrahim bin Abdallah",
+        "DirectorDescription4":"Charmain Direktor von Motoon"
+    },
+    "portalMember":{
+        "Leadership":"Führung",
+        "Design":"Design",
+        "Markets":"Märkte",
+        "Persons":{
+            "Mohamed":"Mohamed Ahmed",
+            "Ayman":"Ayman Ibrahim",
+            "AliK":"Ali Karam",
+            "AliA":"Ali bin Abdullatif"
+        },
+        "Position":{
+            "President":"Präsident",
+            "Partner":"Seniorpartner"
+        }
+    },
+    "footer":{
+        "MotoonPlace":"Riad, Saudi-Arabien",
+        "GeneralPercon":"3113 Mohammed Ibn Abdulaziz Rd.",
+        "MotoonTawers":"Gewerbetürme, Nordturm",
+        "Location":"Etage, Riad 12212, Saudi-Arabien",
+        "AutorText":"© 2024 Motoon Entwicklung. Alle Rechte vorbehalten."
+    }
+}
