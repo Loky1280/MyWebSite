@@ -8,6 +8,25 @@
         "Title":"Who we do",
         "Text":"we give you valuable opportunities through our diverse group of projects in multiple sectors and different locations."
     },
+    "TableTitle":"Our Markets",
+    "table":{
+        "Title1":"Motoon Towers",
+        "Description1":"Riyadh",
+        "Title2":"AlMa’ather Towe",
+        "Description2":"Riyadh",
+        "Title3":"Tharwa Town",
+        "Description3":"Riyadh",
+        "Title4":"TAHLIA WALK",
+        "Description4":"Jeddah",
+        "Title5":"Tharwa Town",
+        "Description5":"Riyadh",
+        "Title6":"TAHLIA WALK",
+        "Description6":"Jeddah",
+        "Title7":"City Life",
+        "Description7":"Riyadh",
+        "Title8":"AlMa’ather Tower",
+        "Description8":"Riyadh"
+    },
     "leftColoumn":{
         "Title":"We Develop",
         "Text":"An encouraging environment for every masterminds,persistent individuals, and inspired minds eager tolearn, evolve, and thrive, through exceptional architectural designs that provide luxury living."
@@ -18,7 +37,11 @@
     },
     "aboutCompany":{
         "Title":"A culture of service excellence and a shared sense of initiative",
-        "Text":"When you choose to work with Motoon, you choose to work with the best. In addition to being highly skilled experts in our field, our people are passionate about what they do. We simply think differently and that produces innovative outcomes. Whether you’re a developer, investor, landlord or tenant, we are am partner who is invested in seeing you succeed."
+        "Text":"When you choose to work with Motoon, you choose to work with the best. In addition to being highly skilled experts in our field, our people are passionate about what they do. We simply think differently and that produces innovative outcomes. Whether you’re a developer, investor, landlord or tenant, we are am partner who is invested in seeing you succeed.",
+        "SubText1":"Project Management",
+        "SubText2":"Facility Management",
+        "SubText3":"Property Management",
+        "SubText4":"Research & Advisory"
     },
     "footer":{
         "MotoonPlace":"Riyadh, KSA",

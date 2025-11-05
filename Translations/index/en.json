@@ -26,6 +26,24 @@
         "ProjectsButton":"All projects"
     },
     "TableTitle":"Newest Projects",
+    "table":{
+        "Title1":"Motoon Towers",
+        "Description1":"Riyadh",
+        "Title2":"AlMa’ather Towe",
+        "Description2":"Riyadh",
+        "Title3":"Tharwa Town",
+        "Description3":"Riyadh",
+        "Title4":"TAHLIA WALK",
+        "Description4":"Jeddah",
+        "Title5":"Tharwa Town",
+        "Description5":"Riyadh",
+        "Title6":"TAHLIA WALK",
+        "Description6":"Jeddah",
+        "Title7":"City Life",
+        "Description7":"Riyadh",
+        "Title8":"AlMa’ather Tower",
+        "Description8":"Riyadh"
+    },
     "footer":{
         "MotoonPlace":"Riyadh, KSA",
         "GeneralPercon":"3113 Mohammed Ibn Abdulaziz Rd.",

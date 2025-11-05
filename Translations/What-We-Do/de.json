@@ -8,6 +8,25 @@
         "Title":"Wen wir machen",
         "Text":"Wir bieten Ihnen wertvolle Möglichkeiten durch unsere vielfältige Projektpalette in verschiedenen Sektoren und an unterschiedlichen Standorten."
     },
+    "TableTitle":"Unsere Märkte",
+    "table":{
+        "Title1":"Motoon Towers",
+        "Description1":"Riyadh",
+        "Title2":"AlMa’ather Towe",
+        "Description2":"Riyadh",
+        "Title3":"Tharwa Town",
+        "Description3":"Riyadh",
+        "Title4":"TAHLIA WALK",
+        "Description4":"Jeddah",
+        "Title5":"Tharwa Town",
+        "Description5":"Riyadh",
+        "Title6":"TAHLIA WALK",
+        "Description6":"Jeddah",
+        "Title7":"City Life",
+        "Description7":"Riyadh",
+        "Title8":"AlMa’ather Tower",
+        "Description8":"Riyadh"
+    },
     "leftColoumn":{
         "Title":"Wir entwickeln",
         "Text":"Ein inspirierendes Umfeld für alle Genies, ausdauernden Persönlichkeiten und inspirierten Köpfe, die lernen, sich weiterentwickeln und erfolgreich sein wollen – durch außergewöhnliche Architektur, die luxuriöses Wohnen ermöglicht."
@@ -18,7 +37,11 @@
     },
     "aboutCompany":{
         "Title":"Eine Kultur der Serviceexzellenz und ein gemeinsames Verantwortungsbewusstsein",
-        "Text":"Wenn Sie sich für Motoon entscheiden, wählen Sie die Besten. Unsere Mitarbeiter sind nicht nur hochqualifizierte Experten auf ihrem Gebiet, sondern auch mit Leidenschaft bei der Sache. Wir denken einfach anders – und das führt zu innovativen Ergebnissen. Ob Sie Bauträger, Investor, Vermieter oder Mieter sind: Wir sind ein Partner, dem Ihr Erfolg am Herzen liegt."
+        "Text":"Wenn Sie sich für Motoon entscheiden, wählen Sie die Besten. Unsere Mitarbeiter sind nicht nur hochqualifizierte Experten auf ihrem Gebiet, sondern auch mit Leidenschaft bei der Sache. Wir denken einfach anders – und das führt zu innovativen Ergebnissen. Ob Sie Bauträger, Investor, Vermieter oder Mieter sind: Wir sind ein Partner, dem Ihr Erfolg am Herzen liegt.",
+        "SubText1":"Projektmanagement",
+        "SubText2":"Facility Management",
+        "SubText3":"Immobilienverwaltung",
+        "SubText4":"Research & Advisory"
     },
     "footer":{
         "MotoonPlace":"Riad, Saudi-Arabien",

@@ -26,6 +26,24 @@
         "ProjectsButton":"جميع المشاريع"
     },
     "TableTitle":"أحدث المشاريع",
+    "table":{
+        "Title1":"أبراج متون",
+        "Description1":"الرياض",
+        "Title2":"برج المعذر",
+        "Description2":"الرياض",
+        "Title3":"مدينة ثروة",
+        "Description3":"الرياض",
+        "Title4":"ممشى التحلية",
+        "Description4":"جدة",
+        "Title5":"مدينة ثروة",
+        "Description5":"الرياض",
+        "Title6":"ممشى التحلية",
+        "Description6":"جدة",
+        "Title7":"حياة المدينة",
+        "Description7":"الرياض",
+        "Title8":"برج المعذر",
+        "Description8":"الرياض"
+    },
     "footer":{
         "MotoonPlace":"الرياض، المملكة العربية السعودية",
         "GeneralPercon":"3113 طريق محمد بن عبد العزيز.",
