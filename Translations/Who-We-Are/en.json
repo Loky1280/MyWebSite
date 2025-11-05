@@ -1,0 +1,59 @@
+{
+    "nav":{
+        "WhoWeAre":"WHO WE ARE",
+        "WhatWeDo":"WHAT WE DO",
+        "OurProjects":"OUR PROJECTS"
+    },
+    "header":{
+        "Title":"Who we are",
+        "Text":"The Real Estate Spirit of the Era."
+    },
+    "leftColoumn":{
+        "Text":"we are dedicated to shaping living spaces that are not only unique and sophisticated but also resonate with the spirit of the era, contributing to building the future in alignment with Vision 2030."
+    },
+    "rightColoumn":{
+        "VideoText":"Every design challenge we embark on is approached with a soul of curiosity and creativity, a commitment to uncover hidden opportunities.",
+        "Text":"It is our passion for innovation that drives us to set new standards in urban development, by adopting the constraints that drive innovation. Our vision is for positive transformation in every space, fueled by a passion for the future."
+    },
+    "statblock":{
+        "StatsText1":"unit",
+        "StatsDescription1":"Successfully managed",
+        "StatsText2":"customer",
+        "StatsDescription2":"Achieved the satisfaction",
+        "StatsText3":"sqm",
+        "StatsDescription3":"Developed an extensive area"
+    },
+    "director":{
+        "DirectorsMessage":"irector's message",
+        "DirectorTitle1":"“ Motoon has witnessed rapid growth since day one",
+        "DirectorText1":"in response to the increasing demand for our meticulously designed and developed projects. Every member of our adept Motoon team is committed to upholding our strategy and vision, as Motoon will provide a major turning point for the concept of real estate development in the Kingdom of Saudi Arabia.”",
+        "DirectorDescription1":"Eng. Mahmoud bin Ibrahim bin Abdallah",
+        "DirectorDescription2":"Charmain Director OF Motoon",
+        "DirectorTitle2":"“ Among the world's most respected and oldest real estate institutions,",
+        "DirectorText2":"Motoon's unique vision and values set us apart from other real estate institutions, This great credit goes to every mastermind and creative mind who implements it in keeping pace with real estate and architectural developments so that we are always at the forefront.”",
+        "DirectorDescription3":"Eng. Mahmoud bin Ibrahim bin Abdallah",
+        "DirectorDescription4":"Charmain Director OF Motoon"
+    },
+    "portalMember":{
+        "Leadership":"Leadership",
+        "Design":"Design",
+        "Markets":"Markets",
+        "Persons":{
+            "Mohamed":"Mohamed Ahmed",
+            "Ayman":"Ayman Ibrahim",
+            "AliK":"Ali Karam",
+            "AliA":"Ali bin Abdullatif"
+        },
+        "Position":{
+            "President":"President",
+            "Partner":"senior partner"
+        }
+    },
+    "footer":{
+        "MotoonPlace":"Riyadh, KSA",
+        "GeneralPercon":"3113 Mohammed Ibn Abdulaziz Rd.",
+        "MotoonTawers":"Commercial Towers, North Tower",
+        "Location":"Floor, Riyadh 12212, KSA",
+        "AutorText":"© 2024 Motoon Development. All rights reserved."
+    }
+}
