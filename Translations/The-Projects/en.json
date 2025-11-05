@@ -1,0 +1,34 @@
+{
+    "nav":{
+        "WhoWeAre":"WHO WE ARE",
+        "WhatWeDo":"WHAT WE DO",
+        "OurProjects":"OUR PROJECTS"
+    },
+    "Title":"Tahli Walk",
+    "leftColoumn":{
+        "Title1":"Location",
+        "Text1":"Qurtobah, Riyadh",
+        "Title2":"Type",
+        "Text2":"Villas",
+        "Title3":"No. of types",
+        "Text3":"10"
+    },
+    "rightColoumn":{
+        "Title":"Reflects your business quality",
+        "Text":"As one of our ongoing projects, Tahlia Walk is designed to offer all the services that suit your businessneeds and meet the needs of your employees in order to speed up the production process.At Tahlia Walk, you will find a variety of real estate spaces specially designed for your project in one ofJeddah's most prestigious neighborhoods, combining sophistication, comfort, and outstanding service."
+    },
+    "form":{
+        "Title":"Title",
+        "Text":"For all inquiries related to Motoon projects,please call us +966 53 291 7222.",
+        "Name":"Full Name",
+        "Email":"Email",
+        "Phone":"Mobile number"
+    },
+    "footer":{
+        "MotoonPlace":"Riyadh, KSA",
+        "GeneralPercon":"3113 Mohammed Ibn Abdulaziz Rd.",
+        "MotoonTawers":"Commercial Towers, North Tower",
+        "Location":"Floor, Riyadh 12212, KSA",
+        "AutorText":"© 2024 Motoon Development. All rights reserved."
+    }
+}

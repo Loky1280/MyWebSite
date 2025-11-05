@@ -1,0 +1,30 @@
+{
+    "nav":{
+        "WhoWeAre":"WHO WE ARE",
+        "WhatWeDo":"WHAT WE DO",
+        "OurProjects":"OUR PROJECTS"
+    },
+    "header":{
+        "Title":"Who we do",
+        "Text":"we give you valuable opportunities through our diverse group of projects in multiple sectors and different locations."
+    },
+    "leftColoumn":{
+        "Title":"We Develop",
+        "Text":"An encouraging environment for every masterminds,persistent individuals, and inspired minds eager tolearn, evolve, and thrive, through exceptional architectural designs that provide luxury living."
+    },
+    "rightColoumn":{
+        "Title":"We believe",
+        "Text":"We believe in developing a sustainable environment and providing architectural designs that enhance the quality of life and provide the best opportunities in the present and future."
+    },
+    "aboutCompany":{
+        "Title":"A culture of service excellence and a shared sense of initiative",
+        "Text":"When you choose to work with Motoon, you choose to work with the best. In addition to being highly skilled experts in our field, our people are passionate about what they do. We simply think differently and that produces innovative outcomes. Whether you’re a developer, investor, landlord or tenant, we are am partner who is invested in seeing you succeed."
+    },
+    "footer":{
+        "MotoonPlace":"Riyadh, KSA",
+        "GeneralPercon":"3113 Mohammed Ibn Abdulaziz Rd.",
+        "MotoonTawers":"Commercial Towers, North Tower",
+        "Location":"Floor, Riyadh 12212, KSA",
+        "AutorText":"© 2024 Motoon Development. All rights reserved."
+    }
+}
