@@ -204,16 +204,24 @@ main{
     main {
         flex-direction: column;
         padding: 30px;
+        align-items: stretch;
     }
-    .LeftColoun, .RightColoun {
+    .LeftColoun,
+    .RightColoun {
+        width: 100%; 
         max-width: 100%;
+        flex: 1 1 100%;
         margin: 20px 0;
+        box-sizing: border-box;
     }
     .VideoContainer {
+        width: 100%;
         height: auto;
     }
     .VideoContainer iframe {
-        height: 315px; 
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
     }
     .DirectorSubContainer {
         flex-direction: column;

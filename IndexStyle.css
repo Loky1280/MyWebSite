@@ -455,13 +455,20 @@ footer{
     justify-content: space-between;
   }
   .StatBlock {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    max-width: 100%; 
+    width: 100%;
+    margin: 0 auto; 
+    padding: 0;
+    gap: 20px; 
   }
   .IMGProp {
     margin-top: 0;
-    width: 274px;
-    height: 321px;
+    width: 574px;
+    height: 621px;
   }
   .TableStyle {
     display: flex;
