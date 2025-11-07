@@ -437,6 +437,10 @@ footer{
     width: 120px;
     height: auto;
     padding: 10px;
+    margin: 0px;
+  }
+  .LanguageOptions{
+    margin: 10px;
   }
   .TextProps h1 {
     font-size: 24px;

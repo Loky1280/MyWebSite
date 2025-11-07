@@ -44,6 +44,9 @@ main{
     font-weight: 900;
     padding-bottom: 40px;
 }
+.StatBlock{
+    max-width: 100%;
+}
 .DirectorContainer{
     line-height: 118%;
     margin: 60px;

@@ -146,12 +146,11 @@ a{
     margin-right: 0;
   }
   .ImageContainer, .HeigthImageComtainer, .ImageContainer3, .ImageContainer6 {
-    height: 200px;      
+    height: 300px;      
     margin-bottom: 20px;
   }
   .HeigthImageComtainer {
-    height: 300px;
-    max-height: 400px;
+    height: 620px;
   }
   .TextOnImageContainer {
     padding: 15px 20px;
