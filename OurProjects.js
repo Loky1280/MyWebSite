@@ -22,11 +22,17 @@ async function loadLanguage(langCode) {
 const langSelect = document.querySelector(".LanguageOptions");
 
 if (langSelect) {
-  loadLanguage("en");
+
+  const savedLang = localStorage.getItem("lang") || "en";
+
+  langSelect.value = savedLang;
+
+  loadLanguage(savedLang);
 
   langSelect.addEventListener("change", () => {
     const langCode = langSelect.value;
     console.log("Змінено мову на:", langCode);
+    localStorage.setItem("lang", langCode);
     loadLanguage(langCode);
   });
 }

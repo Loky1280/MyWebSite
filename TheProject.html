@@ -74,11 +74,16 @@ Jeddah's most prestigious neighborhoods, combining sophistication, comfort, and 
                         <input data-translate="form.Name" class="InputRow" type="text" placeholder="Full Name" required>
                         <input data-translate="form.Email" class="InputRow" type="email" placeholder="Email" required>
                         <div class="PhoneRow">
-                            <select class="SelectorStyle">
-                                <option>+966</option>
-                                <option>+1</option>
-                                <option>+38</option>
-                            </select>
+                            <div class="CustomSelect">
+                                <div class="selected">
+                                    <img src="Resurs/TheProject/arFlag.svg" alt="SA">
+                                </div>
+                                <div class="options">
+                                    <div data-code="+966"><img src="Resurs/TheProject/arFlag.svg" alt="SA"></div>
+                                    <div data-code="+1"><img src="Resurs/TheProject/usFlag.svg" alt="US"></div>
+                                    <div data-code="+49"><img src="Resurs/TheProject/deFlag.svg" alt="DE"></div>
+                                </div>
+                            </div>
                             <input data-translate="form.Phone" class="InputPhone" type="tel" placeholder="Mobile number" required>
                         </div>
                         <button class="FormButton" type="submit">Send</button>
